@@ -36,11 +36,24 @@ public class MathApp {
         System.out.println("The square root of " + variable + " is " + squareRoot + '.');
 
         // Question 5:
-        String pointA = "(5, 10)";
-        String pointB = "(85, 50)";
-        String distance;
+        double point1X = 5;
+        double point1Y = 10;
+        double point2X = 85;
+        double point2Y = 50;
+        double distance;
 
-        distance = Math.
+        distance = (point2X - point1X) + (point2Y - point1Y);
+        System.out.println("The total distance between the two points is " + distance + '.');
+
+        // Question 6:
+        double variableValue = -3.8;
+        double absoluteValue;
+
+        absoluteValue = Math.abs(variableValue);
+        System.out.println("The absolute value of " + variableValue + " is " + absoluteValue + '.');
+
+        // Question 7:
+
 
     }
 }
