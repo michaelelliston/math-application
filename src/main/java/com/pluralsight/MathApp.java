@@ -53,6 +53,32 @@ public class MathApp {
         System.out.println("The absolute value of " + variableValue + " is " + absoluteValue + '.');
 
         // Question 7:
+        int min = 0;
+        int max = 1;
+        double randomNumber;
+
+        randomNumber = Math.random();
+        System.out.println("The randomly picked number between " + min + " and " + max + " is: " + randomNumber + '.');
+
+        // Question 8:
+        int days = 24; // 24 Days
+        int dayHours = 24; // 24 Hours in a day
+        int hourMinutes = 60; // 60 minutes in an hour
+        int minuteSeconds = 60; // 60 seconds in a minute
+        int secondMilliseconds = 1_000; // 1000 milliseconds in a second
+        int hours;
+        int minutes;
+        int seconds;
+        int milliseconds;
+
+        hours = days * dayHours;
+        minutes = hours * hourMinutes;
+        seconds = minutes * minuteSeconds;
+        milliseconds = seconds * secondMilliseconds;
+
+        System.out.println("The amount of minutes in " + days + " days is " + minutes + ", and the amount of milliseconds is " + milliseconds + '.');
+
+
 
 
     }
