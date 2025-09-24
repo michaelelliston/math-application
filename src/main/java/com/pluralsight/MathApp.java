@@ -71,10 +71,10 @@ public class MathApp {
         int seconds;
         int milliseconds;
 
-        hours = days * dayHours;
-        minutes = hours * hourMinutes;
-        seconds = minutes * minuteSeconds;
-        milliseconds = seconds * secondMilliseconds;
+        hours = days * dayHours; // Number of hours in 24 days
+        minutes = hours * hourMinutes; // Number of minutes in 24 days
+        seconds = minutes * minuteSeconds; // Number of seconds in 24 days
+        milliseconds = seconds * secondMilliseconds; // Number of milliseconds in 24 days
 
         System.out.println("The amount of minutes in " + days + " days is " + minutes + ", and the amount of milliseconds is " + milliseconds + '.');
 
